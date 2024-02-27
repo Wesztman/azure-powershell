@@ -27,7 +27,7 @@ Remove-AzContainerRegistryManifest -RepositoryName <String> -Tag <String> -Regis
 ## DESCRIPTION
 Delete ACR manifest.
 To use this cmdlet please run 
-`Update-AzContainerRegistryRepository -RegistryName XXX -Repository XXX -DeleteEnable $true`
+`Update-AzContainerRegistryRepository -RegistryName XXX -Name XXX -DeleteEnabled $true`
 first.
 
 ## EXAMPLES
